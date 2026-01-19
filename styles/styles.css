@@ -1,9 +1,16 @@
+:root {
+
+    --nav-a-color: darkblue;
+    --all-margin: 20px 30px 0;
+
+}
+
 main {
     max-width: fit-content;
 }
 
 nav {
-    background-color: darkblue;
+    background-color: var(--nav-a-color);
     padding: 10px;
 }
 
@@ -15,7 +22,7 @@ nav a {
 
 h1 {
     color: darkblue;
-    margin: 20px 30px 0;
+    margin: var(--all-margin);
 }
 
 main img {
@@ -24,17 +31,17 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    margin: 20px 30px 0;
+    margin: var(--all-margin);
 }
 
 p {
     padding: 0;
-    margin: 20px 30px 0;
+    margin: var(--all-margin);
 }
 
 aside {
     width: auto;
-    margin: 20px 30px;
+    margin: var(--all-margin);
     border: 1.5px solid black;
     padding: 1rem;
     background-color: lightblue;
