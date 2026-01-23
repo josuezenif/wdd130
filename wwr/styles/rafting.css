@@ -1,6 +1,5 @@
 :root {
-    --first-color: #deb887;
-    --second-color: #428e1d;
+    --primary-color: #deb887;
     --heading-font: "Americana";
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -13,9 +12,9 @@
 
 header nav {
     display: block;
-    background-color: var(--first-color);
+    background-color: var(--primary-color);
     border: 1.5px solid black;
-    margin: var(--first-color);
+    margin: #deb887;
     margin-bottom: 10px;
 
 }
@@ -61,14 +60,14 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--first-color);
+    background-color: var(--primary-color);
     color: #000;
 }
 
@@ -79,11 +78,11 @@ section h2 {
     top: 20px;
     bottom: 20px;
     padding: 20px;
-    background-color: var(--first-color);
+    background-color: var(--primary-color);
     box-shadow: 0 0 8px black;
 }
 
-article {
+.hero article {
     position: absolute;
     display: block;
     background-color: beige;
