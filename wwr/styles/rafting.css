@@ -147,6 +147,37 @@ section img {
     grid-column: 3/4;
 }
 
+.adventure {
+    margin: 1px solid black;
+    padding: 5px;
+}
+
+figure {
+    display: grid;
+    padding: 1rem;
+}
+
+figcaption {
+    grid-row: 2/3;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
 footer {
-    border-top: 1px solid #606060;
+    display: block;
+    border: 2px solid #606060;
+    background-color: rgb(255, 234, 187);
+    display: flex;
+    height: 100px;
+}
+
+.socialmedia {
+    display: flex;
+}
+
+.copyright {
+    grid-column: 2/3;
+    align-content: center;
 }
