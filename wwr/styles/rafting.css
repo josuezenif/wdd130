@@ -149,7 +149,6 @@ section img {
 }
 
 .adventure {
-    display: grid;
     grid-column: 1/5;
     display: flex;
     text-align: center;
