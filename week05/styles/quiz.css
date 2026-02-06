@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25em;
+    letter-spacing: 0.5px;
+}
+
+header {
+    font-size: 1.7em;
+    color: rgb(21, 21, 131);
+    text-align: center;
+    margin: 10px;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    background-color: rgb(223, 224, 226);
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    display: grid;
+    gap: 1em;
+}
+
+fieldset {
+    display: grid;
+    gap: 1rem;
+    text-align: left;
+    padding: 1rem;
+    border: 1em;
+}
+
+input,
+select,
+textarea,
+button {
+    padding: 0.5em;
+    margin: 0.5em;
+    font-size: 1rem;
+}
+
+button {
+    background-color: darkblue;
+    color: #fff;
+    padding: 1em;
+    border: 1px solid white;
+    border-radius: 0.5em;
+}
