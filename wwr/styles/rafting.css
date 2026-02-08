@@ -157,7 +157,6 @@ section img {
 }
 
 footer {
-    display: block;
     border: 2px solid #606060;
     background-color: rgb(255, 234, 187);
     display: flex;
@@ -175,7 +174,7 @@ footer {
 
 form {
     padding: 1em;
-    border-radius: 0.5;
+    border-radius: 0.5px;
 }
 
 .mapform {
@@ -209,7 +208,17 @@ textarea {
 
 input[type="radio"] {
     position: relative;
-    top: 20px;
+    top: 17px;
+    left: 10em;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    display: flex;
+    height: 15.5px;
+    left: 20.5rem;
+    bottom: 1em;
+    margin: 1px;
 }
 
 legend {
@@ -233,7 +242,7 @@ legend {
 }
 
 .paragraph {
-    padding: 1;
+    padding: 7px;
     margin: 10px;
     border: 1.1px solid rgb(4, 103, 53);
 }
