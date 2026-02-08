@@ -172,3 +172,98 @@ footer {
     grid-column: 2/3;
     align-content: center;
 }
+
+form {
+    padding: 1em;
+    border-radius: 0.5;
+}
+
+.mapform {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1;
+    align-items: center;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    padding: 15px 20px 20px;
+    letter-spacing: 0.5px;
+    grid-column: 2/3;
+    border-radius: 1rem;
+    border: 1.2px solid #3d3737;
+}
+
+label {
+    padding: 1px;
+}
+
+input,
+textarea {
+    padding: 5px;
+    width: 100%;
+    font-size: 1.05em;
+}
+
+input[type="radio"] {
+    position: relative;
+    top: 20px;
+}
+
+legend {
+    font-size: 1.5em;
+    color: rgb(44, 77, 44);
+}
+
+.heading {
+    text-align: center;
+    display: block;
+    background-color: var(--primary-color);
+    opacity: 0.9;
+    padding: 15px;
+    border: 1.5px solid #302020;
+    margin: 10px;
+}
+
+.information {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.paragraph {
+    padding: 1;
+    margin: 10px;
+    border: 1.1px solid rgb(4, 103, 53);
+}
+
+button {
+    background-color: rgb(249, 179, 138);
+    padding: 0.8em;
+    border: 1px solid rgb(143, 143, 143);
+    font-size: 0.9em;
+}
+
+.serve {
+    font-size: 1.1em;
+    text-align: center;
+    padding: 15px;
+    display: block;
+    background-color: var(--primary-color);
+    border: 1.5px solid rgb(69, 48, 24);
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
+.employee {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 12px;
+}
+
+.photo {
+    text-align: center;
+    font-size: 1.1em;
+    border-bottom: 2px solid burlywood;
+}
