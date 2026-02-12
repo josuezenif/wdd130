@@ -276,3 +276,76 @@ button {
     font-size: 1.1em;
     border-bottom: 2px solid burlywood;
 }
+
+.activities {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.activityphoto img {
+    display: block;
+}
+
+.rafting-activities {
+    border: 3px solid gray;
+    box-shadow: 0 0 15px rgb(88, 88, 88);
+    margin-bottom: 10px;
+}
+
+.activities-caption {
+    display: block;
+    background-color: #deb887;
+    border: 1px solid #5f3604;
+    padding: 5px;
+}
+
+.beautiful-view {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.beautiful-view-image img {
+    display: block;
+    border: 15px solid rgb(22, 76, 26);
+    border-radius: 0.7rem;
+}
+
+.text-view {
+    display: block;
+    background-color: #4c7148;
+    color: #fff;
+    border: 2px solid rgb(10, 79, 10);
+    border-radius: 1rem;
+    letter-spacing: 0.7px;
+}
+
+.booktrip {
+    display: block;
+    background-color: #d5b783;
+    font-size: 1.099em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    align-items: center;
+    padding: 1px;
+    border: 2px solid rgb(153, 73, 20);
+    border-radius: 0.5em;
+    margin: 5px 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.happy-group img {
+    display: block;
+    margin: 5px;
+    border: 1px solid rgb(110, 55, 55);
+}
+
+.happy-group2 img {
+    display: block;
+    margin: 10px;
+    border: 1px solid rgb(110, 55, 55);
+}
